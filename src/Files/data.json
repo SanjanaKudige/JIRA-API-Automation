@@ -1,0 +1,12 @@
+{
+	"fields": {
+		"project": {
+			"key": "SOF"
+		},
+		"summary": "test1_Software_App1_BUG",
+		"description": "First BUG found in the new software app ",
+		"issuetype": {
+			"name": "Bug"
+		}
+	}
+}
