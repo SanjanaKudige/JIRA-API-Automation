@@ -40,7 +40,7 @@ public class ReusableMethods {
 
 		Response res = given().header("Content-Type", "application/json")
 
-				.body("{ \"username\": \"SanjanaKudige\", \"password\":\"Password@12345\" }").when()
+				.body("{ \"username\": \"username\", \"password\":\"password\" }").when()
 
 				.post("/rest/auth/1/session").then().statusCode(200).extract().response();
 
